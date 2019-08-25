@@ -13,4 +13,12 @@ public class SquareTest {
         double delta = 1;
         assertEquals(expected,square.getArea(),delta);
     }
+
+    @Test
+    public void itShouldGiveThePerimeterOfSquare() {
+        Square square = new Square(3);
+        double expected = 12;
+        double delta = 1;
+        assertEquals(expected,square.getPerimeter(),delta);
+    }
 }
