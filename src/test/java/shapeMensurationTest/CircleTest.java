@@ -7,10 +7,18 @@ import static org.junit.Assert.assertEquals;
 
 public class CircleTest {
     @Test
-    public void itShouldGiveTheAreaOfSquare() {
+    public void itShouldGiveTheAreaOfCircle() {
         Circle circle = new Circle(3);
         double expected = 28;
         double delta = 1;
         assertEquals(expected,circle.getArea(),delta);
+    }
+
+    @Test
+    public void itShouldGiveTheCircumferenceOfCircle() {
+        Circle circle = new Circle(3);
+        double expected = 18;
+        double delta = 1;
+        assertEquals(expected,circle.getCircumference(),delta);
     }
 }
