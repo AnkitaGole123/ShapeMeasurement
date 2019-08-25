@@ -8,12 +8,10 @@ import static org.junit.Assert.assertEquals;
 public class RectangleTest {
     @Test
     public void itShouldGiveTheAreaOfRectangle() {
-        Rectangle rectangle = new Rectangle();
+        Rectangle rectangle = new Rectangle(3,4);
         double expected = 12;
-        double length = 3;
-        double width = 4;
         double delta = 1;
-        assertEquals(expected,rectangle.getArea(length,width),delta);
+        assertEquals(expected,rectangle.getArea(),delta);
 
     }
 
