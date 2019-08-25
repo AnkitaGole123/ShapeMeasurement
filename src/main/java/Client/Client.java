@@ -16,7 +16,9 @@ public class Client {
         rectanglesArea.add(rectangle2.getArea());
         rectanglesArea.add(rectangle3.getArea());
         rectanglesArea.add(rectangle4.getArea());
+        for (int i = 0; i < rectanglesArea.size(); i++) {
+            System.out.println(rectanglesArea.get(i));
+        }
 
-        System.out.println(rectanglesArea);
         }
     }
