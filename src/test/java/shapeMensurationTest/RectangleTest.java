@@ -14,5 +14,13 @@ public class RectangleTest {
         assertEquals(expected,rectangle.getArea(),delta);
 
     }
+    @Test
+    public void itShouldGiveThePerimeterOfRectangle() {
+        Rectangle rectangle = new Rectangle(3,4);
+        double expected = 14;
+        double delta = 1;
+        assertEquals(expected,rectangle.getPerimeter(),delta);
+
+    }
 
 }
