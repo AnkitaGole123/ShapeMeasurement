@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TriangleTest {
     @Test
-    public void itShouldGiveTheAreaOfRectangle() {
+    public void itShouldGiveTheAreaOfTriangle() {
         Triangle triangle = new Triangle(3,6);
         double expected = 9;
         double delta = 1;
