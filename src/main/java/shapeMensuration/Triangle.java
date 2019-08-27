@@ -2,8 +2,8 @@ package shapeMensuration;
 
 public class Triangle implements Shape{
 
-    public Triangle(double hieght, double width) {
-        this.height = hieght;
+    public Triangle(double height, double width) {
+        this.height = height;
         this.width = width;
     }
 
