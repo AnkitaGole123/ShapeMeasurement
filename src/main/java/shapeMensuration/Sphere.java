@@ -11,5 +11,11 @@ public class Sphere implements Shapes3D{
     public double getVolume() {
         return (4*22*radius*radius*radius)/(3*7);
     }
+
+    @Override
+    public double getSurfaceArea() {
+        return 4*22*radius*radius/7;
+    }
+
 }
 
