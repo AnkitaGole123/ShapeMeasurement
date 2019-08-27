@@ -13,4 +13,11 @@ public class CylinderTest {
         double delta = 1;
         assertEquals(expected,cylinder.getVolume(),delta);
     }
+    @Test
+    public void itShouldGiveTheSurfaceReaOfCylinder() {
+        Cylinder cylinder = new Cylinder(3,8);
+        double expected = 207;
+        double delta = 1;
+        assertEquals(expected,cylinder.getSurfaceArea(),delta);
+    }
 }
