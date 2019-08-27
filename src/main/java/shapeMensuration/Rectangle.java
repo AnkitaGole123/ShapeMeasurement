@@ -1,8 +1,17 @@
 package shapeMensuration;
 
 public class Rectangle implements Area{
+    public double getLength() {
+        return length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
     private double length;
     private double width;
+
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
@@ -10,11 +19,12 @@ public class Rectangle implements Area{
 
     @Override
     public double getArea() {
-        return length * width;
+        return getLength() * getWidth();
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * (length + width);
+        return 2 * (getLength() + getWidth());
     }
+
 }
