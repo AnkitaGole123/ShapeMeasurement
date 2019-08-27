@@ -19,6 +19,6 @@ public class CircleTest {
         Circle circle = new Circle(3);
         double expected = 18;
         double delta = 1;
-        assertEquals(expected,circle.getCircumference(),delta);
+        assertEquals(expected,circle.getPerimeter(),delta);
     }
 }
