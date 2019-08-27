@@ -7,8 +7,8 @@ public class Triangle implements Shape{
         this.width = width;
     }
 
-    double height;
-    double width;
+    private double height;
+    private double width;
 
     @Override
     public double getArea() {
@@ -17,6 +17,6 @@ public class Triangle implements Shape{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return 2* (height+width);
     }
 }
