@@ -1,4 +1,6 @@
-package shapeMensuration;
+package All2DShapes;
+
+import All2DShapes.Shapes2D;
 
 public class Square implements Shapes2D {
     public double getSide() {

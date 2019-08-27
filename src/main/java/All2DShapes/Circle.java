@@ -1,4 +1,4 @@
-package shapeMensuration;
+package All2DShapes;
 
 public class Circle {
     public Circle(double radius) {

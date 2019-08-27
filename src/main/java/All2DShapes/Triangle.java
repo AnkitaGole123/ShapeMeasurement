@@ -1,4 +1,6 @@
-package shapeMensuration;
+package All2DShapes;
+
+import All2DShapes.Shapes2D;
 
 public class Triangle implements Shapes2D {
 

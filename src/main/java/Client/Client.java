@@ -1,8 +1,8 @@
 package Client;
 
-import shapeMensuration.Rectangle;
-import shapeMensuration.Shapes2D;
-import shapeMensuration.Square;
+import All2DShapes.Rectangle;
+import All2DShapes.Shapes2D;
+import All2DShapes.Square;
 
 import java.util.Arrays;
 import java.util.List;

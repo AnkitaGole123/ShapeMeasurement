@@ -1,4 +1,4 @@
-package shapeMensuration;
+package All3DShapes;
 
 public class Sphere implements Shapes3D{
     public Sphere(double radius) {

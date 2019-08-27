@@ -1,7 +1,7 @@
 package shapeMensurationTest;
 
 import org.junit.Test;
-import shapeMensuration.Sphere;
+import All3DShapes.Sphere;
 
 import static org.junit.Assert.assertEquals;
 
