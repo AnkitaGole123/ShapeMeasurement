@@ -15,7 +15,7 @@ public class CircleTest {
     }
 
     @Test
-    public void itShouldGiveTheCircumferenceOfCircle() {
+    public void itShouldGiveThePerimeterOfCircle() {
         Circle circle = new Circle(3);
         double expected = 18;
         double delta = 1;
