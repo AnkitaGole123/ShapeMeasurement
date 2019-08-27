@@ -9,7 +9,7 @@ public class Cube implements Shapes3D{
 
     @Override
     public double getVolume() {
-        return 0;
+        return 6 * length + length;
     }
 
     @Override
