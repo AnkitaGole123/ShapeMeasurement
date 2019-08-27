@@ -16,6 +16,6 @@ public class Cylinder implements Shapes3D{
 
     @Override
     public double getSurfaceArea() {
-        return 0;
+        return (2*22*radius)/7*(radius+height);
     }
 }
