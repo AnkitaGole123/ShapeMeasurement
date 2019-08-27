@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Client {
     public static void main(String[] args) {
+
         List<Rectangle> rectangles = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
             rectangles.add(new Rectangle(1,1));
