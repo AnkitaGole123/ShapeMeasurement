@@ -1,6 +1,6 @@
 package shapeMensuration;
 
-public class Square implements Area{
+public class Square implements Shape {
     public double getSide() {
         return side;
     }

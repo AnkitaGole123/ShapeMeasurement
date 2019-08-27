@@ -1,6 +1,6 @@
 package shapeMensuration;
 
-public class Rectangle implements Area{
+public class Rectangle implements Shape {
     public double getLength() {
         return length;
     }

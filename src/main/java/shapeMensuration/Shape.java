@@ -1,6 +1,6 @@
 package shapeMensuration;
 
-public interface Area {
+public interface Shape {
     double getArea();
     double getPerimeter();
 }
