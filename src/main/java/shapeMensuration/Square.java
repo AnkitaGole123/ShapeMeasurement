@@ -1,6 +1,6 @@
 package shapeMensuration;
 
-public class Square implements Shape {
+public class Square implements Shapes2D {
     public double getSide() {
         return side;
     }

@@ -1,6 +1,7 @@
 package shapeMensuration;
 
-public interface Shape {
+public interface Shapes2D {
     double getArea();
     double getPerimeter();
 }
+

@@ -1,10 +1,11 @@
 package shapeMensuration;
 
-public class Triangle implements Shape{
+public class Triangle implements Shapes2D {
 
     public Triangle(double height, double width) {
         this.height = height;
         this.width = width;
+
     }
 
     private double height;
@@ -17,6 +18,6 @@ public class Triangle implements Shape{
 
     @Override
     public double getPerimeter() {
-        return 2* (height+width);
+        return 2 *(height+width);
     }
 }

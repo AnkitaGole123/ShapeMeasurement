@@ -7,9 +7,10 @@ public class Sphere {
 
     double radius;
 
-    public double getVolume() {
+    public double getVolum() {
         return (4*22*radius*radius*radius)/(3*7);
     }
+
 
 }
 
