@@ -14,7 +14,7 @@ public class Sphere implements Shapes3D{
 
     @Override
     public double getSurfaceArea() {
-        return 4*22*radius*radius/7;
+        return 4*Math.PI*radius*radius;
     }
 
 }
