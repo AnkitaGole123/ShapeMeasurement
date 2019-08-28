@@ -1,11 +1,11 @@
 package all3DShapes;
 
 public class Sphere implements Shapes3D{
+    private double radius;
+
     public Sphere(double radius) {
         this.radius = radius;
     }
-
-    double radius;
 
     @Override
     public double getVolume() {

@@ -2,21 +2,25 @@ package all2DShapes;
 
 public class Triangle implements Shapes2D {
 
-    private double height;
-    private double width;
+    private double a;
+    private double b;
+    private double c;
+    private double side;
 
-    public Triangle(double height, double width) {
-        this.height = height;
-        this.width = width;
-
+    public Triangle(double a, double b, double c, double side) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.side = side;
     }
+
     @Override
     public double getArea() {
-        return (height*width)/2;
+        return side*(side-a)*(side-b)*(side-c);
     }
 
     @Override
     public double getPerimeter() {
-        return 2 *(height+width);
+        return a+b+c;
     }
 }
