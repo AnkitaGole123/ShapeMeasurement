@@ -5,18 +5,17 @@ public class Triangle implements Shapes2D {
     private double a;
     private double b;
     private double c;
-    private double side;
 
-    public Triangle(double a, double b, double c, double side) {
+    public Triangle(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
-        this.side = side;
     }
 
     @Override
     public double getArea() {
-        return side*(side-a)*(side-b)*(side-c);
+        int side = (int) ((a+b+c)/2);
+        return Math.sqrt(side*(side-a)*(side-b)*(side-c));
     }
 
     @Override

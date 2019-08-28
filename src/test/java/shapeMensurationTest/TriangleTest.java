@@ -8,15 +8,15 @@ import static org.junit.Assert.assertEquals;
 public class TriangleTest {
     @Test
     public void itShouldGiveTheAreaOfTriangle() {
-        Triangle triangle = new Triangle(3,6);
-        double expected = 9;
+        Triangle triangle = new Triangle(3,4,5);
+        double expected = 6;
         double delta = 1;
         assertEquals(expected,triangle.getArea(),delta);
     }
     @Test
     public void itShouldGiveThePerimeterOfTriangle() {
-        Triangle triangle = new Triangle(3,6);
-        double expected = 18;
+        Triangle triangle = new Triangle(3,4,5);
+        double expected = 12;
         double delta = 1;
         assertEquals(expected,triangle.getPerimeter(),delta);
     }
