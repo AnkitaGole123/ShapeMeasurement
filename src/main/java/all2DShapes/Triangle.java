@@ -2,15 +2,14 @@ package all2DShapes;
 
 public class Triangle implements Shapes2D {
 
+    private double height;
+    private double width;
+
     public Triangle(double height, double width) {
         this.height = height;
         this.width = width;
 
     }
-
-    private double height;
-    private double width;
-
     @Override
     public double getArea() {
         return (height*width)/2;
