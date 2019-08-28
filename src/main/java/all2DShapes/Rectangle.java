@@ -1,14 +1,6 @@
 package all2DShapes;
 
 public class Rectangle implements Shapes2D {
-    public double getLength() {
-        return length;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
     private double length;
     private double width;
 
@@ -19,12 +11,12 @@ public class Rectangle implements Shapes2D {
 
     @Override
     public double getArea() {
-        return getLength() * getWidth();
+        return length * width;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * (getLength() + getWidth());
+        return 2 * (length + width);
     }
 
 }
