@@ -1,7 +1,7 @@
 package shapeMensurationTest;
 
 import org.junit.Test;
-import All2DShapes.Square;
+import all2DShapes.Square;
 
 import static org.junit.Assert.assertEquals;
 

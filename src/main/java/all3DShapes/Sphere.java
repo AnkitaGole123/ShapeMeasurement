@@ -1,4 +1,4 @@
-package All3DShapes;
+package all3DShapes;
 
 public class Sphere implements Shapes3D{
     public Sphere(double radius) {

@@ -1,4 +1,4 @@
-package All2DShapes;
+package all2DShapes;
 
 public class Circle implements Shapes2D{
     public Circle(double radius) {

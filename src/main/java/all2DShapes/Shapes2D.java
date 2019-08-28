@@ -1,4 +1,4 @@
-package All2DShapes;
+package all2DShapes;
 
 public interface Shapes2D {
     double getArea();

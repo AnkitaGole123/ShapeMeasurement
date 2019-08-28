@@ -1,4 +1,4 @@
-package All3DShapes;
+package all3DShapes;
 
 public interface Shapes3D {
         double getVolume();

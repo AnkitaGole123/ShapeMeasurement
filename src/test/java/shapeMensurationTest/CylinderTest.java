@@ -1,6 +1,6 @@
 package shapeMensurationTest;
 
-import All3DShapes.Cylinder;
+import all3DShapes.Cylinder;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,6 +1,6 @@
 package shapeMensurationTest;
 
-import All3DShapes.Cube;
+import all3DShapes.Cube;
 
 import org.junit.Test;
 

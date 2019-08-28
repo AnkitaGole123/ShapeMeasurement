@@ -1,6 +1,4 @@
-package All2DShapes;
-
-import All2DShapes.Shapes2D;
+package all2DShapes;
 
 public class Rectangle implements Shapes2D {
     public double getLength() {

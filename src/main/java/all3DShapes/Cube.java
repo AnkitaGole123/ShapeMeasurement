@@ -1,4 +1,4 @@
-package All3DShapes;
+package all3DShapes;
 
 public class Cube implements Shapes3D{
     public Cube(double length) {

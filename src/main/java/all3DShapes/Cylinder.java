@@ -1,4 +1,4 @@
-package All3DShapes;
+package all3DShapes;
 
 public class Cylinder implements Shapes3D{
     public Cylinder(double radius, double height) {
