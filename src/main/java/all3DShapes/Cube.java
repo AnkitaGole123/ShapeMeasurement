@@ -9,11 +9,11 @@ public class Cube implements Shapes3D{
 
     @Override
     public double getVolume() {
-        return 6 * length * length;
+        return length * length * length;
     }
 
     @Override
     public double getSurfaceArea() {
-        return length * length * length;
+        return 6 * length * length;
     }
 }
