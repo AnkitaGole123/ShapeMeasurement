@@ -1,11 +1,11 @@
 package all3DShapes;
 
 public class Cube implements Shapes3D{
+    double length;
+
     public Cube(double length) {
         this.length = length;
     }
-
-    double length;
 
     @Override
     public double getVolume() {

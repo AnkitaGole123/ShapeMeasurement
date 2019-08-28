@@ -1,13 +1,14 @@
 package all3DShapes;
 
 public class Cylinder implements Shapes3D{
+
+   private double radius;
+   private double height;
+
     public Cylinder(double radius, double height) {
         this.radius = radius;
         this.height = height;
     }
-
-    double radius;
-    double height;
 
     @Override
     public double getVolume() {
