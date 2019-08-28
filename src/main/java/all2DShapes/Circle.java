@@ -1,11 +1,11 @@
 package all2DShapes;
 
 public class Circle implements Shapes2D{
+
+    private double radius;
     public Circle(double radius) {
         this.radius = radius;
     }
-
-    private double radius;
 
     @Override
     public double getArea(){
