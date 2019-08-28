@@ -1,9 +1,6 @@
 package all2DShapes;
 
 public class Square implements Shapes2D {
-    public double getSide() {
-        return side;
-    }
 
     private double side;
 
@@ -13,12 +10,12 @@ public class Square implements Shapes2D {
 
     @Override
     public double getArea() {
-        return getSide() * getSide();
+        return side * side;
     }
 
     @Override
     public double getPerimeter() {
-        return 4 * getSide();
+        return 4 * side;
 
     }
 }
